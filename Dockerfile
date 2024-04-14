@@ -1,4 +1,4 @@
-FROM alpine:edge
+FROM alpine:stable
 
 RUN ["/bin/sh", "-c", "apk add --update --no-cache bash ca-certificates curl git jq openssh aws-cli"]
 
