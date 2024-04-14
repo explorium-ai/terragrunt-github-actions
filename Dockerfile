@@ -1,4 +1,4 @@
-FROM alpine:stable
+FROM alpine:3.19.1
 
 RUN ["/bin/sh", "-c", "apk add --update --no-cache bash ca-certificates curl git jq openssh aws-cli"]
 
